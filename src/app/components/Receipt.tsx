@@ -240,9 +240,9 @@ export default function Receipt({ user }: { user: string }) {
                 width={461}
                 height={990}
                 alt="GitHub Receipt"
-                className="absolute transform -translate-x-[43%] -translate-y-[57%] top-1/2 left-1/2 -z-10 scale-[2.1]"
+                className="absolute transform -translate-x-[45%] -translate-y-[57%] top-1/2 left-1/2 -z-10 scale-[2.3]"
               />
-              <div className="receipt-content w-full text-black">
+              <div className="receipt-content w-full text-black pr-4">
                 <div className="font-mono text-2xl leading-6 tracking-wide">
                   <div className="text-center mb-6">
                     <h2 className="font-bold text-[3rem] ">GITHUB RECEIPT</h2>
