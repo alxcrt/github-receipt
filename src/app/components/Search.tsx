@@ -27,7 +27,7 @@ export default function Search() {
                       id="user"
                       placeholder="Enter Github username"
                       required
-                      className="border-0 bg-transparent text-center text-2xl text-black p-2 mr-2"
+                      className="border-0 bg-transparent text-center text-2xl text-black p-2 mr-2 outline-none"
                     />
                   </td>
                   <td>
