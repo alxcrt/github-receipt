@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import PlausibleProvider from "next-plausible";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -43,6 +42,9 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <footer>
+        Made with ❤️ by <a href="https://alexcretu.com">Alex Cretu</a>
+      </footer>
     </html>
   );
 }
