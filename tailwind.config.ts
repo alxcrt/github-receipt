@@ -18,8 +18,21 @@ module.exports = {
         receipt: "receipt 1s forwards",
         "receipt-printing": "receipt-printing 10s forwards",
         "receipt-led": "receipt-led 10s forwards",
+        label: "label 10s forwards",
       },
       keyframes: {
+        // show after 10s
+        label: {
+          "0%": {
+            opacity: "0",
+          },
+          "80%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
         receipt: {
           "0%, 100%": { transform: "rotate(0deg)" },
           "50%": { transform: "rotate(1deg)" },

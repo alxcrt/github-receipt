@@ -392,7 +392,7 @@ export default function Receipt({ user }: { user: string }) {
                       github.com/{data.userData.login}
                     </p>
                   </div>
-                  <div className="exclude">
+                  <div className="exclude animate-label">
                     <button
                       className="exclude px-4 py-2 bg-black text-white text-md fixed bottom-4 right-4"
                       onClick={handleDownload}
