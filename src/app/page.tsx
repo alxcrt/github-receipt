@@ -57,7 +57,7 @@ export default async function Home() {
         /> */}
 
         {/* EMpty space */}
-        <div className="absolute top-[-25%] right-[50%] translate-x-[50%] w-96 h-96 bg-[#edebe3] z-[9]"></div>
+        <div className="absolute top-[-25%] right-[50%] translate-x-[50%] w-[400px] h-96 bg-[#edebe3] z-[9]"></div>
       </div>
     </div>
   );

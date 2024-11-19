@@ -62,7 +62,7 @@ export default async function GithubReceipt({ params }: GithubReceiptProps) {
         />
 
         {/* EMpty space */}
-        <div className="absolute top-[-25%] right-[50%] translate-x-[50%] w-96 h-96 bg-[#edebe3] z-[9]"></div>
+        <div className="absolute top-[-25%] right-[50%] translate-x-[50%] w-[500px] h-96 bg-[#edebe3] z-[9]"></div>
       </div>
     </div>
   );
