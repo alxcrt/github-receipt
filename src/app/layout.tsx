@@ -42,7 +42,7 @@ export default function RootLayout({
       >
         {children}
       </body>
-      <footer className="text-center text-sm text-gray-500 py-4">
+      <footer className="text-center text-sm text-gray-500 py-4 fixed bottom-0 w-full">
         Made with ❤️ by <a href="https://alexcretu.com">Alex Cretu</a>
       </footer>
     </html>
