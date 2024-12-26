@@ -17,6 +17,5 @@ Transform your GitHub activity into a virtual receipt! This project generates a 
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React for the user interface and receipt rendering.
-- **Backend:** Node.js for fetching data via the [GitHub REST API](https://docs.github.com/en/rest).
+- **Frontend/Backend:** Next.js for the user interface and receipt rendering.
 - **Styling:** Tailwind CSS for sleek and responsive design.
