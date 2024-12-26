@@ -1,4 +1,5 @@
 # GitHub Receipt Generator 🧾
+![Banner](./github-receipt.png)
 
 Transform your GitHub activity into a virtual receipt! This project generates a fun, receipt-style representation of your GitHub stats, perfect for sharing with your fellow developers or just admiring your work.
 
