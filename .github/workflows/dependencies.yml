@@ -40,6 +40,9 @@
           "run": "npm ci"
         },
         {
+          "run": "npm run test:security && npm audit --audit-level=low"
+        },
+        {
           "run": "npm run build"
         },
         {
